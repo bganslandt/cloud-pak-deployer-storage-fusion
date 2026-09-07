@@ -10,6 +10,8 @@ openshift:
   ocp_version: 4.21
   cluster_name: PATCHED_BY_JOB
   domain_name: PATCHED_BY_JOB
+  infrastructure:
+    processor_architecture: ppc64le
   gpu:
     install: False
   openshift_ai:
