@@ -4,7 +4,7 @@ metadata:
   name: cloud-pak-deployer-input
   namespace: cloud-pak-deployer
 data:
-  config-git-repo: https://github.com/bganslandt/cloud-pak-deployer-gitops
+  config-git-repo: https://github.com/bganslandt/cloud-pak-deployer-storage-fusion
   config-git-ref: orchestrate-540
 ---
 apiVersion: v1
