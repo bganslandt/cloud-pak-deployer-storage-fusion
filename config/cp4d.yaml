@@ -1,6 +1,6 @@
 ---
 cp4d:
-- project: cpd
+- project: wxo
   openshift_cluster_name: "{{ env_id }}"
   cp4d_version: 5.4.0
   cp4d_entitlement: 
@@ -47,7 +47,7 @@ cp4d:
   cp4d_production_license: True
   accept_licenses: True
   db2u_limited_privileges: False
-  operators_project: cpd-operators
+  operators_project: wxo-operators
   ibm_cert_manager: False
   install_day0_patch: True
   state: installed
