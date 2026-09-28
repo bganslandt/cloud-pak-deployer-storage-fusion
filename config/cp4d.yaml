@@ -2,7 +2,7 @@
 cp4d:
 - project: wxo
   openshift_cluster_name: "{{ env_id }}"
-  cp4d_version: 5.4.0
+  cp4d_version: 5.4.4
   cp4d_entitlement: 
   # - cpd-enterprise
   # - cpd-standard

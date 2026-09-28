@@ -27,4 +27,8 @@ oc create -f https://raw.githubusercontent.com/bganslandt/cloud-pak-deployer-sto
 Logs can be followed with
 ```bash
 oc logs -f -n cloud-pak-deployer job/cloud-pak-deployer
+
+oc -n cloud-pak-deployer exec $(oc get po -n cloud-pak-deployer -oname | findstr "debug") -it -- /bin/bash
+cd /Data/cpd-status/log/ && echo '===> LOGS: ===' && ls -lArt && echo '==============' && tail -n 50 -f $(ls -Art | grep -v 'cloud-pak-deployer.log' | tail -1)
+
 ```
