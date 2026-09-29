@@ -42,7 +42,7 @@ cp4d:
   # - watsonx-dataintelligence-transition-reserved-vpc
   # - watsonx-gov-mm
   # - watsonx-gov-rc
-  - watsonx-orchestrate
+  # #################################################################### - watsonx-orchestrate
   # - watson-orchestrate-with-assistant
   cp4d_production_license: True
   accept_licenses: True
@@ -544,7 +544,7 @@ cp4d:
 
   - name: watsonx_orchestrate
     description: watsonx.orchestrate
-    state: installed
+    state: removed
     instances:
     - name: wxo-instance
       description: "watsonx Orchestrate instance"
