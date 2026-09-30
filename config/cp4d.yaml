@@ -70,7 +70,10 @@ cp4d:
 # If a cartridge has dependencies and you want to install it, you must ensure that the dependent cartridge is also
 # installed.
 #
-
+  - name: ibm_wxd_openrag
+    description: OpenRAG on watsonx.data premium
+    state: installed
+    
   - name: analyticsengine 
     description: Analytics Engine Powered by Apache Spark 
     size: small 
