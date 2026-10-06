@@ -205,9 +205,9 @@ cp4d:
 
   # Please note that for EDB Postgress, a secret edb-postgres-license-key must be created in the vault
   # before deploying
-  - name: edb_cp4d
-    description: EDB Postgres
-    state: installed
+  #- name: edb_cp4d
+  #  description: EDB Postgres
+  #  state: removed
     #instances:
     #- name: instance1
       #version: "15.4"
