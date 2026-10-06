@@ -50,7 +50,7 @@ cp4d:
   operators_project: cpd-operators
   ibm_cert_manager: False
   install_day0_patch: True
-  state: removed
+  state: installed
   cartridges:
   - name: cp-foundation
     scale: level_1
