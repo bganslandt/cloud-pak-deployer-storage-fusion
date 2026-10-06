@@ -70,9 +70,6 @@ cp4d:
 # If a cartridge has dependencies and you want to install it, you must ensure that the dependent cartridge is also
 # installed.
 #
-  - name: model_gateway
-    description: Model Gateway
-    state: installed
 
   - name: ibm_wxd_opensearch
     description: OpenSearch on watsonx.data premium
