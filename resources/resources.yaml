@@ -4,8 +4,8 @@ metadata:
   name: cloud-pak-deployer-input
   namespace: cloud-pak-deployer
 data:
-  config-git-repo: https://github.com/thomas-mattsson/cloud-pak-deployer-gitops
-  config-git-ref: fort-540
+  config-git-repo: https://github.com/bganslandt/cloud-pak-deployer-fusion
+  config-git-ref: openrag-wxo-540
 ---
 apiVersion: v1
 kind: ServiceAccount
