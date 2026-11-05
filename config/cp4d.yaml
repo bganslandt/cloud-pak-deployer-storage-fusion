@@ -597,7 +597,8 @@ cp4d:
       watsonxAI:
         watsonxaiifm: true
         syomModels: []
-        ootbModels: ['gpt-oss-120b']
+        ootbModels: []
+#        ootbModels: ['gpt-oss-120b']
 
   - name: wca
     description: watsonx Code Assistant
