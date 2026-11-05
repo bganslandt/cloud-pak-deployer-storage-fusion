@@ -588,7 +588,7 @@ cp4d:
 
   - name: watsonx_orchestrate
     description: watsonx.orchestrate
-    state: removed
+    state: installed
     instances:
     - name: wxo-instance
       description: "watsonx Orchestrate instance"
