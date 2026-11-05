@@ -595,7 +595,7 @@ cp4d:
     installation_options:
       installMode: "agentic"  
       watsonxAI:
-        watsonxaiifm: true
+        watsonxaiifm: false
         syomModels: []
         ootbModels: []
 #        ootbModels: ['gpt-oss-120b']
