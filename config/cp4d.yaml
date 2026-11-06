@@ -519,10 +519,10 @@ cp4d:
 
   - name: watsonx_data
     description: watsonx.data
-    state: removed
+    state: installed
     installation_options:
-      enable_lite_milvus: false
-      scaleConfig: small    
+      enable_lite_milvus: true
+      scaleConfig: small
 
   - name: watsonx_dataintegration
     description: watsonx.data integration
@@ -588,7 +588,7 @@ cp4d:
 
   - name: watsonx_orchestrate
     description: watsonx.orchestrate
-    state: installed
+    state: removed
     instances:
     - name: wxo-instance
       description: "watsonx Orchestrate instance"
